@@ -5,6 +5,8 @@
     <classes>
       
       <class name="TestCases.Hover"/>
-    </classes>
+      <class name="TestCases.AlertClass"/>
+      <class name="TestCases.WindowHandler"/>
+          </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

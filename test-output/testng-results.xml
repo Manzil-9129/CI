@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-02T13:08:17 EST" name="Suite" finished-at="2021-12-02T13:08:47 EST" duration-ms="30026">
+  <suite started-at="2021-12-02T13:59:04 EST" name="Suite" finished-at="2021-12-02T14:01:50 EST" duration-ms="166049">
     <groups>
     </groups>
-    <test started-at="2021-12-02T13:08:17 EST" name="Test" finished-at="2021-12-02T13:08:47 EST" duration-ms="30026">
-      <class name="TestCases.Hover">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestCases.Hover@3d1cfad4]" started-at="2021-12-02T13:08:17 EST" name="beforemethod" finished-at="2021-12-02T13:08:17 EST" duration-ms="224" status="PASS">
+    <test started-at="2021-12-02T13:59:04 EST" name="Test" finished-at="2021-12-02T14:01:50 EST" duration-ms="166049">
+      <class name="TestCases.WindowHandler">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestCases.WindowHandler@69e1dd28]" started-at="2021-12-02T14:00:32 EST" name="beforemethod" finished-at="2021-12-02T14:00:32 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="hoverclass()[pri:0, instance:TestCases.Hover@3d1cfad4]" started-at="2021-12-02T13:08:17 EST" name="hoverclass" finished-at="2021-12-02T13:08:46 EST" duration-ms="29252" status="PASS">
+        <test-method signature="windowhandler()[pri:0, instance:TestCases.WindowHandler@69e1dd28]" started-at="2021-12-02T14:00:32 EST" name="windowhandler" finished-at="2021-12-02T14:01:49 EST" duration-ms="76837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowhandler -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestCases.WindowHandler@69e1dd28]" started-at="2021-12-02T14:01:49 EST" name="aftermethod" finished-at="2021-12-02T14:01:50 EST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- TestCases.WindowHandler -->
+      <class name="TestCases.AlertClass">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:TestCases.AlertClass@3738449f]" started-at="2021-12-02T14:00:05 EST" name="initiate" finished-at="2021-12-02T14:00:05 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="alertclass()[pri:0, instance:TestCases.AlertClass@3738449f]" started-at="2021-12-02T14:00:05 EST" name="alertclass" finished-at="2021-12-02T14:00:32 EST" duration-ms="27142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertclass -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.AlertClass@3738449f]" started-at="2021-12-02T14:00:32 EST" name="quit" finished-at="2021-12-02T14:00:32 EST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.AlertClass -->
+      <class name="TestCases.Hover">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestCases.Hover@378542de]" started-at="2021-12-02T13:59:04 EST" name="beforemethod" finished-at="2021-12-02T13:59:05 EST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="hoverclass()[pri:0, instance:TestCases.Hover@378542de]" started-at="2021-12-02T13:59:05 EST" name="hoverclass" finished-at="2021-12-02T14:00:02 EST" duration-ms="56870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverclass -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestCases.Hover@3d1cfad4]" started-at="2021-12-02T13:08:46 EST" name="aftermethod" finished-at="2021-12-02T13:08:47 EST" duration-ms="514" status="PASS">
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestCases.Hover@378542de]" started-at="2021-12-02T14:00:02 EST" name="aftermethod" finished-at="2021-12-02T14:00:05 EST" duration-ms="3305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
